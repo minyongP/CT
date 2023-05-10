@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38901896-ef1e-4681-9d69-127bf4bc52c3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/datastructure/prefixsum/P11659.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/prefixsum/P11659RE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/math/P11005RE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/math/P2292.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/math/P2720.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/math/P2903.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/math/P11005.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/P11005.java" afterDir="false" />
     </list>
@@ -41,6 +47,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="datastructure.prefixsum" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,6 +65,7 @@
       <workItem from="1683438347579" duration="752000" />
       <workItem from="1683549973744" duration="1668000" />
       <workItem from="1683633137553" duration="6821000" />
+      <workItem from="1683717549150" duration="10797000" />
     </task>
     <servers />
   </component>
