@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38901896-ef1e-4681-9d69-127bf4bc52c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Browser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Packaging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/stackNqueue/Packaging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/stackNqueue/Packaging2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/stackNqueue/Printer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/stackNqueue/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Packaging.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +66,8 @@
       <workItem from="1683717549150" duration="10797000" />
       <workItem from="1683765678675" duration="2000" />
       <workItem from="1683883537816" duration="4355000" />
+      <workItem from="1683897991548" duration="3853000" />
+      <workItem from="1683952639521" duration="7242000" />
     </task>
     <servers />
   </component>
