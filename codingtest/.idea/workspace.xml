@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38901896-ef1e-4681-9d69-127bf4bc52c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/datastructure/stackNqueue/Packaging.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/stackNqueue/Packaging2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/stackNqueue/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/queue/P10845.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/queue/P1158.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/queue/P1966.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/queue/P1966H.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/queue/P2164.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/stack/P10773.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/stack/P10828.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/stack/P1874.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/stackNqueue/Browser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Packaging.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/stackNqueue/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/stack/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/stackNqueue/Packaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/queue/PackagingH.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/stackNqueue/Packaging2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/queue/Packaging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/stackNqueue/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/queue/Printer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +35,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="2PNIb59glxxT7ndkraDwTljJBab" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -42,11 +52,13 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="datastructure.queue" />
       <recent name="datastructure.prefixsum" />
     </key>
   </component>
@@ -68,11 +80,27 @@
       <workItem from="1683883537816" duration="4355000" />
       <workItem from="1683897991548" duration="3853000" />
       <workItem from="1683952639521" duration="7242000" />
+      <workItem from="1683970685684" duration="5252000" />
+      <workItem from="1683980700406" duration="4884000" />
+      <workItem from="1684056251694" duration="3074000" />
+      <workItem from="1684064713168" duration="7821000" />
+      <workItem from="1684111178960" duration="11631000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/datastructure/queue/P10845.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/codingtest$P11005.ic" NAME="P11005 Coverage Results" MODIFIED="1683642551473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
