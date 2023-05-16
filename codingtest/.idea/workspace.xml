@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38901896-ef1e-4681-9d69-127bf4bc52c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/datastructure/queue/P10845.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/queue/P1158.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/queue/P1966.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/queue/P1966H.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/queue/P2164.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/stack/P10773.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/stack/P10828.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/stack/P1874.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/AdjMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/DFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/Pathfinding.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/stackNqueue/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/stack/Browser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/stackNqueue/Packaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/queue/PackagingH.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/stackNqueue/Packaging2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/queue/Packaging.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/stackNqueue/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/queue/Printer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +77,7 @@
       <workItem from="1684056251694" duration="3074000" />
       <workItem from="1684064713168" duration="7821000" />
       <workItem from="1684111178960" duration="11631000" />
+      <workItem from="1684211305433" duration="8123000" />
     </task>
     <servers />
   </component>
