@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.Queue;
-// 11724
+
 public class BFS {
     public static void main(String[] args) {
         int result = connectedVertices(new int[][]{
