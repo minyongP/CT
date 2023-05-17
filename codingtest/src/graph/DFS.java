@@ -1,5 +1,5 @@
 package graph;
-// 2023 g5
+
 public class DFS {
     public static void main(String[] args) {
         String output = barcode(3);
