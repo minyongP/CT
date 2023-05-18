@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38901896-ef1e-4681-9d69-127bf4bc52c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/LetterCapital.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedy/BoardGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedy/Boxing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedy/CoinChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedy/MoneyChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/combination/RockPaperScissors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/combination/SourceRecipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/prefixsum/P10986.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastructure/prefixsum/P11660.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/BFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/DFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/greedy/Boxing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/greedy/Boxing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +105,10 @@
       <workItem from="1684298141486" duration="9973000" />
       <workItem from="1684313741709" duration="741000" />
       <workItem from="1684330596102" duration="217000" />
+      <workItem from="1684330822642" duration="2880000" />
+      <workItem from="1684386043814" duration="5912000" />
+      <workItem from="1684414400762" duration="3536000" />
+      <workItem from="1684420670869" duration="292000" />
     </task>
     <servers />
   </component>
@@ -135,6 +136,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/combination/RockPaperScissors.java</url>
+          <line>29</line>
+          <properties class="combination.RockPaperScissors" method="permutation">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
