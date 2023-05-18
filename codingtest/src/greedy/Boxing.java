@@ -18,6 +18,7 @@ public class Boxing {
         /*
         * count(같이 담을 수 있는 수)
         * 배열 오름차순 정렬
+        * two point
         * while(s<e){
         *   if(배열의 s, e 더해서 리미트 이하){
         *       count++
