@@ -5,9 +5,10 @@ import java.util.Arrays;
 
 public class RockPaperScissors {
     public static void main(String[] args) {
-        ArrayList<String[]> output = rockPaperScissors(5);
+        ArrayList<String[]> output = rockPaperScissors(1);
 
         System.out.println(output);
+
 /*
     [
       ["rock", "rock", "rock", "rock", "rock"],
@@ -40,7 +41,6 @@ public class RockPaperScissors {
 
             String[] concatArray = Arrays.copyOf(playedSoFar, playedSoFar.length + 1);
             concatArray[concatArray.length - 1] = currentPlay;
-
             outcomes = permutation(roundsToGo - 1, concatArray, outcomes);
         }
 
