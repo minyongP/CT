@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38901896-ef1e-4681-9d69-127bf4bc52c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/base/RemoveExtremes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/slidingwindow/P12891.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="38901896-ef1e-4681-9d69-127bf4bc52c3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,6 +92,7 @@
       <workItem from="1684757023985" duration="594000" />
       <workItem from="1684821236333" duration="158000" />
       <workItem from="1684843119123" duration="6498000" />
+      <workItem from="1684928939489" duration="594000" />
     </task>
     <servers />
   </component>
