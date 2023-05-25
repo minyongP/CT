@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38901896-ef1e-4681-9d69-127bf4bc52c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/base/ReverseArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/ReadVertically.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/ReverseArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/ReverseArr.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +97,8 @@
       <workItem from="1684821236333" duration="158000" />
       <workItem from="1684843119123" duration="6498000" />
       <workItem from="1684928939489" duration="594000" />
-      <workItem from="1684937937099" duration="2291000" />
+      <workItem from="1684937937099" duration="3149000" />
+      <workItem from="1685015866760" duration="1916000" />
     </task>
     <servers />
   </component>
@@ -115,6 +117,11 @@
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/base/ReadVertically.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/base/LetterCapital.java</url>
