@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38901896-ef1e-4681-9d69-127bf4bc52c3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/slidingwindow/P12891.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/slidingwindow/P12891.java" afterDir="false" />
-    </list>
+    <list default="true" id="38901896-ef1e-4681-9d69-127bf4bc52c3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,6 +96,7 @@
       <workItem from="1684937937099" duration="3149000" />
       <workItem from="1685015866760" duration="2058000" />
       <workItem from="1685024275748" duration="3553000" />
+      <workItem from="1685063663247" duration="4000" />
     </task>
     <servers />
   </component>
