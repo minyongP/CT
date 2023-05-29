@@ -1,12 +1,15 @@
 package datastructure.slidingwindow;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 public class P12891 {
     static int check = 0;  // 4개중 만족한 수
     static char[] myArr;
     static int[] checkArr;
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         /*
         * S(DNA 문자열 길이) P(부분 문자열 길이)
         * arr(DNA 배열) checkArr({‘A’, ‘C’, ‘G’, ‘T’} 검증 배열)
@@ -35,34 +38,35 @@ public class P12891 {
         *   제거된 문자 업데이트, check값 변경
         * }
         * */
-        Scanner scanner = new Scanner(System.in);
-        int S = scanner.nextInt();
-        int P = scanner.nextInt();
-        scanner.nextLine();
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int S = Integer.parseInt(st.nextToken());
+        int P = Integer.parseInt(st.nextToken());
         int result = 0;
-        char[] arr = scanner.nextLine().toCharArray();
+        st = new StringTokenizer(br.readLine());
+        char[] arr = st.nextToken().toCharArray();
         myArr = new char[4];
         checkArr = new int[4];
-
+        st = new StringTokenizer(br.readLine());
         for (int i = 0; i < 4; i++) {
-            checkArr[i] = scanner.nextInt();
+            checkArr[i] = Integer.parseInt(st.nextToken());
             if (checkArr[i] == 0) check++;
         }
         // 초기화
         for (int i = 0; i < P; i++) {
-            add(arr[i]);
+            Add(arr[i]);
         }
         if (check == 4) result++;
         // 슬라이딩
         for (int i = P; i < S; i++) {
             int j = i - P;
-            add(arr[i]);
-            remove(arr[j]);
+            Add(arr[i]);
+            Remove(arr[j]);
             if(check == 4) result++;
         }
         System.out.println(result);
     }
-    private static void add(char c){
+    private static void Add(char c){
         switch (c) {
             case 'A': {
                 myArr[0]++;
@@ -86,7 +90,7 @@ public class P12891 {
             }
         }
     }
-    private static void remove(char c){
+    private static void Remove(char c){
         switch (c) {
             case 'A': {
                 if (myArr[0] == checkArr[0]) check--;
