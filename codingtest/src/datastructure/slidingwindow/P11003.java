@@ -1,11 +1,12 @@
 package datastructure.slidingwindow;
 
+import java.io.*;
 import java.util.Deque;
 import java.util.LinkedList;
-import java.util.Scanner;
+import java.util.StringTokenizer;
 
 public class P11003 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         /*
         * N(숫자 개수) L(쵯솟값 구하는 범위)
         * Deque<Node> deque(범위를 담을 덱)
@@ -21,19 +22,28 @@ public class P11003 {
         * 덱에 저장할 노드 클래스 생성
         * 노드 클래스에는 index(자신의 위치), value(자신의 값) 담기
         * */
-        Scanner scanner = new Scanner(System.in);
-        int N = scanner.nextInt();
-        int L = scanner.nextInt();
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int N = Integer.parseInt(st.nextToken());
+        int L = Integer.parseInt(st.nextToken());
+        st = new StringTokenizer(br.readLine());
         Deque<Node> deque = new LinkedList<>();
         for (int i = 0; i < N; i++) {
-            int now = scanner.nextInt();
+            int now = Integer.parseInt(st.nextToken());
+            // 만약 덱의 마지막 값보다 새로운 값이 더 작으면 대체
             while (!deque.isEmpty() && deque.getLast().value > now) {
                 deque.removeLast();
             }
             deque.addLast(new Node(now, i));
-            
+            // 범위에서 벗어나면 첫번째 삭제
+            if (deque.getFirst().index < i - L + 1) {
+                deque.removeFirst();
+            }
+            bw.write(deque.getFirst().value + " ");
         }
-
+        bw.flush();
+        bw.close();
     }
     private static class Node {
         int value;
