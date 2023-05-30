@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38901896-ef1e-4681-9d69-127bf4bc52c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/base/SuperIncreasing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructure/slidingwindow/P11003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/Modulo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/slidingwindow/P12891.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/slidingwindow/P12891.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +101,8 @@
       <workItem from="1685024275748" duration="3553000" />
       <workItem from="1685063663247" duration="4000" />
       <workItem from="1685363335313" duration="4075000" />
+      <workItem from="1685405502359" duration="3000" />
+      <workItem from="1685453906525" duration="1433000" />
     </task>
     <servers />
   </component>
@@ -127,6 +127,11 @@
           <line>36</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/base/Modulo.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/base/LetterCapital.java</url>
           <line>10</line>
@@ -138,11 +143,6 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="arr" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/codingtest$P11005.ic" NAME="P11005 Coverage Results" MODIFIED="1683642551473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
