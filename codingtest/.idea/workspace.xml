@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38901896-ef1e-4681-9d69-127bf4bc52c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/base/Modulo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/slidingwindow/P11003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/slidingwindow/P11003.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +102,7 @@
       <workItem from="1685063663247" duration="4000" />
       <workItem from="1685363335313" duration="4075000" />
       <workItem from="1685405502359" duration="3000" />
-      <workItem from="1685453906525" duration="1433000" />
+      <workItem from="1685453906525" duration="5182000" />
     </task>
     <servers />
   </component>
@@ -126,11 +126,6 @@
           <url>file://$PROJECT_DIR$/src/base/ReadVertically.java</url>
           <line>36</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/base/Modulo.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/base/LetterCapital.java</url>
