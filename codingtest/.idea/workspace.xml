@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38901896-ef1e-4681-9d69-127bf4bc52c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/base/TheBabylonianMethod.java" afterDir="false" />
-    </list>
+    <list default="true" id="38901896-ef1e-4681-9d69-127bf4bc52c3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,6 +106,7 @@
       <workItem from="1685536431695" duration="5305000" />
       <workItem from="1685586608546" duration="7000" />
       <workItem from="1685627494601" duration="67000" />
+      <workItem from="1685669007428" duration="8000" />
     </task>
     <servers />
   </component>
