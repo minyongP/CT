@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38901896-ef1e-4681-9d69-127bf4bc52c3" name="Changes" comment="" />
+    <list default="true" id="38901896-ef1e-4681-9d69-127bf4bc52c3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/base/NumberSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/bubble/P1377.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/bubble/P2750.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,6 +113,9 @@
       <workItem from="1685586608546" duration="7000" />
       <workItem from="1685627494601" duration="67000" />
       <workItem from="1685669007428" duration="8000" />
+      <workItem from="1685693754322" duration="578000" />
+      <workItem from="1685694348722" duration="1350000" />
+      <workItem from="1685709493234" duration="5055000" />
     </task>
     <servers />
   </component>
@@ -122,14 +131,14 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/base/ReadVertically.java</url>
           <line>36</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/base/NumberSearch.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/base/LetterCapital.java</url>
