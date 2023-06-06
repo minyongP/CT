@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38901896-ef1e-4681-9d69-127bf4bc52c3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/sort/quick/P11004.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/insertion/P11399.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/insertion/P11399.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +119,9 @@
       <workItem from="1685888635005" duration="1533000" />
       <workItem from="1685948903771" duration="9000" />
       <workItem from="1685975372989" duration="3328000" />
+      <workItem from="1685978913695" duration="204000" />
+      <workItem from="1686035840374" duration="432000" />
+      <workItem from="1686056219251" duration="4137000" />
     </task>
     <servers />
   </component>
@@ -142,6 +145,16 @@
           <url>file://$PROJECT_DIR$/src/base/NumberSearch.java</url>
           <line>18</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sort/insertion/P11399.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sort/quick/P11004.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/base/LetterCapital.java</url>
