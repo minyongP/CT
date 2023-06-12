@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38901896-ef1e-4681-9d69-127bf4bc52c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/base/CompressString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/LargestProductOfThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/merge/P2751.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +52,7 @@
       <recent name="datastructure.prefixsum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompressString">
+  <component name="RunManager">
     <configuration name="CompressString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="base.CompressString" />
       <module name="codingtest" />
@@ -84,8 +81,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LargestProductOfThree" />
         <item itemvalue="Application.CompressString" />
+        <item itemvalue="Application.LargestProductOfThree" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +164,7 @@
       <workItem from="1686530065162" duration="596000" />
       <workItem from="1686559364186" duration="24000" />
       <workItem from="1686559515136" duration="3000" />
-      <workItem from="1686570570894" duration="1986000" />
+      <workItem from="1686570570894" duration="3426000" />
     </task>
     <servers />
   </component>
