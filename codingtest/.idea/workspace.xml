@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38901896-ef1e-4681-9d69-127bf4bc52c3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/base/Fibo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,9 +53,22 @@
       <recent name="datastructure.prefixsum" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Fibo">
     <configuration name="CompressString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="base.CompressString" />
+      <module name="codingtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fibo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.Fibo" />
       <module name="codingtest" />
       <extension name="coverage">
         <pattern>
@@ -81,6 +95,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Fibo" />
         <item itemvalue="Application.CompressString" />
         <item itemvalue="Application.LargestProductOfThree" />
       </list>
@@ -165,6 +180,8 @@
       <workItem from="1686559364186" duration="24000" />
       <workItem from="1686559515136" duration="3000" />
       <workItem from="1686570570894" duration="3426000" />
+      <workItem from="1686629543921" duration="10000" />
+      <workItem from="1686656396366" duration="4073000" />
     </task>
     <servers />
   </component>
