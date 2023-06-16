@@ -1,7 +1,6 @@
-package base.stream;
+package base.stream.oddgugudan;
 
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 public class OddGugudan {
     public static void main(String[] args) {

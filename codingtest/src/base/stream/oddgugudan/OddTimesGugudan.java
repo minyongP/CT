@@ -1,4 +1,4 @@
-package base.stream;
+package base.stream.oddgugudan;
 
 import java.util.stream.IntStream;
 
