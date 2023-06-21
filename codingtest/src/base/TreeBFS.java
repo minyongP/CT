@@ -22,7 +22,7 @@ public class TreeBFS {
 
     }
     private static class Solution {
-        public ArrayList<String> bfs(tree node) {
+        public static ArrayList<String> bfs(tree node) {
             ArrayList<String> values = new ArrayList<>();
             Queue<tree> queue = new LinkedList<>();
             queue.add(node);
@@ -30,7 +30,7 @@ public class TreeBFS {
             return values;
         }
 
-        private void bfsRun(Queue<tree> queue, ArrayList<String> values) {
+        private static void bfsRun(Queue<tree> queue, ArrayList<String> values) {
             if (queue.isEmpty()) {
                 return;
             }
