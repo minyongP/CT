@@ -37,11 +37,11 @@ public class SpiralTraversal {
         int[] dy = {1, 0, -1, 0};
         int width = matrix.length;
         int height = matrix[0].length;
-        boolean[][] visited = new boolean[height][width];
+        boolean[][] visited = new boolean[width][height];
         int control = 0;
         for (int i = 0; i < height * width; i++) {
-            if (x >= 0 && y >= 0 && x < width && y < height && !visited[y][x]) {
-                visited[y][x] = true;
+            if (x >= 0 && y >= 0 && x < width && y < height && !visited[x][y]) {
+                visited[x][y] = true;
                 sb.append(matrix[x][y]);
                 x += dx[control];
                 y += dy[control];
