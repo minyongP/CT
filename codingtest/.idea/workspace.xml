@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38901896-ef1e-4681-9d69-127bf4bc52c3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/base/CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/LSCS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/RobotPath2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/SpiralTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/SpiralTraversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +153,10 @@
       <workItem from="1689156738741" duration="1045000" />
       <workItem from="1689171467052" duration="2669000" />
       <workItem from="1689174216950" duration="36000" />
+      <workItem from="1689255393370" duration="1794000" />
+      <workItem from="1689301813637" duration="5000" />
+      <workItem from="1689404589043" duration="11000" />
+      <workItem from="1689602744383" duration="2423000" />
     </task>
     <servers />
   </component>
@@ -199,6 +205,11 @@
           <url>file://$PROJECT_DIR$/src/base/MergeSort.java</url>
           <line>16</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/base/CoinChange.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/base/LetterCapital.java</url>
