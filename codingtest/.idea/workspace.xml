@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38901896-ef1e-4681-9d69-127bf4bc52c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/base/CoinChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/LSCS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/RobotPath2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/SubsetSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,6 +155,9 @@
       <workItem from="1689301813637" duration="5000" />
       <workItem from="1689404589043" duration="11000" />
       <workItem from="1689602744383" duration="2423000" />
+      <workItem from="1689641530173" duration="1163000" />
+      <workItem from="1689777181363" duration="1434000" />
+      <workItem from="1689778627679" duration="368000" />
     </task>
     <servers />
   </component>
@@ -210,6 +211,11 @@
           <url>file://$PROJECT_DIR$/src/base/CoinChange.java</url>
           <line>41</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/base/SubsetSum.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/base/LetterCapital.java</url>
