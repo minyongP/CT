@@ -62,7 +62,7 @@ public class Sudoku {
         return result;
     }
 
-    public boolean tracking(int count) {
+    public static boolean tracking(int count) {
         // 현재 List의 크기와 count가 같은 경우는 모든 빈칸을 다 채웠을 경우.
         if(count == blanks.size()) return true;
 
