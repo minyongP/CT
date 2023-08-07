@@ -65,7 +65,7 @@ public class P1260 {
         visited[now] = true;
         for (int i : A[now]) {
             if (!visited[i]) {
-                dfs(now);
+                dfs(i);
             }
         }
     }
