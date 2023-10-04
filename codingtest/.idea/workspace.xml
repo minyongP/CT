@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38901896-ef1e-4681-9d69-127bf4bc52c3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/bfs/P2178.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bfs/P1260.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bfs/P1260.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2PNIb59glxxT7ndkraDwTljJBab" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -37,7 +42,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/myway/Documents/GitHub/CT/codingtest&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/myway/Documents/GitHub/seb45_main_020&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -171,7 +176,12 @@
       <workItem from="1691244057043" duration="3488000" />
       <workItem from="1691333545820" duration="19000" />
       <workItem from="1691391095842" duration="252000" />
-      <workItem from="1691417729499" duration="3155000" />
+      <workItem from="1691417729499" duration="3240000" />
+      <workItem from="1691558620431" duration="5000" />
+      <workItem from="1691585417843" duration="3518000" />
+      <workItem from="1693275086991" duration="17000" />
+      <workItem from="1693876561132" duration="72000" />
+      <workItem from="1693876644161" duration="21000" />
     </task>
     <servers />
   </component>
@@ -240,16 +250,6 @@
           <url>file://$PROJECT_DIR$/src/base/Lps.java</url>
           <line>21</line>
           <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/bfs/P1260.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/bfs/P1260.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/base/LetterCapital.java</url>
