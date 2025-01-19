@@ -19,7 +19,7 @@ public class 멀리_뛰기 {
         if (n == 1) System.out.println(answer);
 
         for (int i = 3; i < n+1; i++) {
-            int currentPiv = piv1 + piv2 % 1234567;
+            int currentPiv = (piv1 + piv2) % 1234567;
             piv1 = piv2;
             piv2 = currentPiv;
         }
