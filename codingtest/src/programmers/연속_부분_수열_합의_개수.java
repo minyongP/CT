@@ -1,7 +1,7 @@
 package programmers;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.HashSet;
+import java.util.Set;
 
 /*
 철호는 수열을 가지고 놀기 좋아합니다.
@@ -17,15 +17,18 @@ public class 연속_부분_수열_합의_개수 {
         int[] elements = {7,9,1,1,4};
         int answer = 0;
 
-        Map<Integer, Integer> map = new HashMap<>();
+        Set<Integer> set = new HashSet<>();
 
         //배열 0부터 끝까지 - 1부터~배열 길이만큼 합
         for (int i  = 0; i < elements.length; i++) {
-            int sum = elements[i];
+            int sum = 0;
             for (int j = 0; j < elements.length; j++) {
-                sum += elements[i+j];
-                map.
+                sum += elements[(i + j) % elements.length];
+                set.add(sum);
             }
         }
+        answer = set.size();
+
+        System.out.println(answer);
     }
 }
