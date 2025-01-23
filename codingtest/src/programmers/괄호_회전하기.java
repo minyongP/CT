@@ -19,33 +19,7 @@ public class 괄호_회전하기 {
         String s = "}]()[{";
         int answer = 0;
 
-        ArrayList<Character> arrayList = new ArrayList<>();
-        for (char c : s.toCharArray()) {
-            arrayList.add(c);
-        }
-
-        Map<Character, Character> map = Map.of(
-                ')', '(',
-                ']', '[',
-                '{', '}'
-        );
-
-
-        for (int i = 0; i < arrayList.size(); i++) {
-            Stack<Character> stack = new Stack<>();
-            for (int j = 0; j < arrayList.size(); j++) {
-                char temp  = arrayList.get((i + j) % arrayList.size());
-
-                if ("([{".indexOf(temp) != -1) {
-                    stack.add(temp);
-                } else if (map.containsKey(temp)) {
-                    if (stack.isEmpty() || stack.pop() != map.get(temp)) {
-                        break;
-                    }
-                }
-            }
-            if (stack.isEmpty()) answer++;
-        }
+ 
 
         System.out.println(answer);
     }
