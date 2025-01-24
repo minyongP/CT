@@ -16,11 +16,43 @@ import java.util.*;
  */
 public class 괄호_회전하기 {
     public static void main(String[] args) {
-        String s = "}]()[{";
+        String s = "[](){}";
         int answer = 0;
 
- 
+        for (int i = 0; i < s.length(); i++) {
+            if (isValid(s)) {
+                answer++;
+            }
+
+            s = rotation(s);
+        }
 
         System.out.println(answer);
+    }
+
+    private static boolean isValid(String s) {
+        Stack<Character> stack = new Stack<>();
+
+        for (char c : s.toCharArray()) {
+            if (c == '(' || c == '[' || c == '{') {
+                stack.push(c);
+            } else {
+                if (stack.isEmpty()) {
+                    return false;
+                }
+
+                char top = stack.pop();
+                if ((c == ')' && top != '(') ||
+                        (c == ']' && top != '[') ||
+                        (c == '}' && top != '{')) {
+                    return false;
+                }
+            }
+        }
+        return stack.isEmpty();
+    }
+
+    private static String rotation(String s) {
+        return s.substring(1) + s.charAt(0);
     }
 }
