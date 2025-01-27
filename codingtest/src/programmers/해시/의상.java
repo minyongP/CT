@@ -1,5 +1,6 @@
 package programmers.해시;
 
+import java.util.*;
 public class 의상 {
     public static void main(String[] args) {
         의상 solution = new 의상();
@@ -16,7 +17,17 @@ public class 의상 {
     }
 
     private static int solution(String[][] clothes) {
-        int answer = 0;
-        return answer;
+        int answer = 1;
+
+        HashMap<String, Integer> hashMap = new HashMap();
+        for (String[] cloth : clothes) {
+            hashMap.put(cloth[1], hashMap.getOrDefault(cloth[1], 0) + 1);
+        }
+
+        for (int count : hashMap.values()) {
+            answer *= (count +1);
+        }
+
+        return answer-1;
     }
 }
